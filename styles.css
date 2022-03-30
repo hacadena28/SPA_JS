@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    color: red;
+}
+.formulario{
+    
+    margin: auto;
+    background-color: chartreuse;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+input  {
+    width: 150px;
+}
+label{
+    display: inline-block;
+    color: blue;
+    background-color: darkgray;
+    width: 100px;
+    font-weight: bold;  
+    text-align: center;     
+}
+
+
+td{
+    border: 1px solid rgb(0, 0, 0);
+    color: blue;
+}
+th{
+    border: 1px solid rgb(133, 133, 133);
+    background-color: rgb(212, 49, 212);
+    color: aquamarine;
+
+}

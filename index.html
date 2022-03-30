@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPA-JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="formulario">
+            <h1>AGENDA</h1>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido">
+                <br>
+                <label for="telefono">Telefono</label>
+                <input type="tel" name="telefono" id="telefono">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" id="direccion">
+                <br>
+                <label for="cumpleaños">Cumpleaños</label>
+                <input type="date" name="cumpleaños" id="cumpleaños">
+                <br>
+                <label for="nota">Anotacion</label>
+                <input type="text" name="nota" id="nota">
+                <br>
+                <input type="button" value="Agregar" id="guardar">
+                
+            </form>
+        </div>
+    </div>
+    <br>
+<div>
+    <div class="tabla">
+        <table id="tabla">
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Celular</th>
+                <th>Email</th>
+                <th>Direccion</th>
+                <th>Cumpleaños</th>
+                <th>Anotacion</th>
+                <th>Acciona</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Heli</td>
+                    <td>Cadena</td>
+                    <td>3187436898</td>
+                    <td>Hacadena@unicesar.edu.co</td>
+                    <td>28/04/2001</td>
+                    <td>Estudiante Ingenieria de sistemas</td>
+                    <td></td>
+                    <td><button class="btn.danger">Borrar</button></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
