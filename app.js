@@ -22,7 +22,7 @@ function agregarATabla(){
     direccion= document.getElementById("direccion").value;
     fecha= document.getElementById("cumpleaños").value;
     nota= document.getElementById("nota").value;
-    if(nombre = ""|| apellido ==""|| telefono ==""|| email==""|| direccion==""||fecha ==""||nota==""){
+    if(nombre == ""|| apellido ==""|| telefono ==""|| email==""|| direccion==""||fecha ==""||nota==""){
         alert("Todos los campos deben ser llenados");
     }else{
 
